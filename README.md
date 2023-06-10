@@ -36,17 +36,17 @@ Define-se na utilização de recurso de TI sob demanda por meio da internet e su
 **[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/)**
 
 ### 2. Vantagens em se utilizar Cloud Computing
-* Agilidade: maior agilidade no processo de desenvolvimento e implatanção de soluções.
-* Elasticidade: permite provisionar mais recurso às soluções de acordo com a demanda, aumentando e diminuindo seus recursos de forma automática, sem interrupção do serviço.
-* Economia de custo: o custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
-* Implantação global em questão de minutos: a nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
+* **Agilidade:** maior agilidade no processo de desenvolvimento e implatanção de soluções.
+* **Elasticidade:** permite provisionar mais recurso às soluções de acordo com a demanda, aumentando e diminuindo seus recursos de forma automática, sem interrupção do serviço.
+* **Economia de custo:** o custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
+* **Implantação global em questão de minutos:** a nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 
 ### 3. Tipos de Cloud Computing
-* IaaS (Infrastructure as a Service): oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre recursos, contendo os componente básicos de TI em nuvem. Exemplo AWS EC2.
-* PaaS (Plataform as a Service): não é necessário o gerenciamento de infraestutura (hardware e sistemas operacionais), focando na implantação e gerenciamento das aplicações. Exemplo AWS Lambda.
-* SaaS (Software as a Service): oferece um produto completo, executado e gerenciado pelo provedor de serviços. Refere-se às aplicações de usuário final. Exemplo Amazon RDS.
+* **IaaS (Infrastructure as a Service):** oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre recursos, contendo os componente básicos de TI em nuvem. Exemplo AWS EC2.
+* **PaaS (Plataform as a Service):** não é necessário o gerenciamento de infraestutura (hardware e sistemas operacionais), focando na implantação e gerenciamento das aplicações. Exemplo AWS Lambda.
+* **SaaS (Software as a Service):** oferece um produto completo, executado e gerenciado pelo provedor de serviços. Refere-se às aplicações de usuário final. Exemplo Amazon RDS.
 
 <p align="center">
   <a><img src="./imgs/types.jpg"></a>
@@ -55,9 +55,9 @@ Define-se na utilização de recurso de TI sob demanda por meio da internet e su
 **[REFERÊNCIA](https://aws.amazon.com/pt/types-of-cloud-computing/)**
 
 ### 4. Modelos de Cloud Computing
-* Public: modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores próprios onde aloca dados, softwares e sistemas de seus clientes de forma independente e isolada.
-* Private: bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
-* Hybrid: permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.
+* **Public:** modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores próprios onde aloca dados, softwares e sistemas de seus clientes de forma independente e isolada.
+* **Private:** bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
+* **Hybrid:** permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.
 <hr>
 
 <div id="seguranca"></div>

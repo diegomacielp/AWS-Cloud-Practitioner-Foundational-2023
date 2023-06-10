@@ -48,9 +48,10 @@ A nuvem possibilita ampliar seus atividades em várias regiões geográficas e i
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 
 ### 3. Tipos de Cloud Computing
-* IaaS:</br>
-Infraestrutura como serviço: 
-* PaaS:</br>
-Plataforma como serviço:
-* SaaS:</br>
-Serviço como serviço:
+* IaaS (Infrastructure as a Service):</br>
+* PaaS (Plataform as a Service):</br>
+* SaaS (Software as a Service):</br>
+
+<p align="center">
+  <a><img src="./imgs/types.jpg"></a>
+</p>

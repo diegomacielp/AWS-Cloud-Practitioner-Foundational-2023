@@ -9,7 +9,7 @@
 * [Tópicos](#topicos)
     - [Pesos](#Pesos)
     - [Conceitos de nuvem](#nuvem)
-
+    - [Segurança e conformidade](#seguranca)
 <hr>
 
 <div id="Pesos"></div>
@@ -18,7 +18,7 @@
 Domínio | % do exame
 ---------|----------|
 Domínio 1: Conceitos de nuvem | 26%  
-Domínio 2: security and compliance | 25%  
+Domínio 2: Segurança e conformidade | 25%  
 Domínio 3: Technology | 33%  
 Domínio 4: Billing and pricing | 16%  
 TOTAL | 100%
@@ -68,3 +68,10 @@ Modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores
 Bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
 * Hybrid:</br>
 Permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.
+<hr>
+
+<div id="seguranca"></div>
+
+## Segurança e conformidade
+
+### 1. Modelo de responsabilidade

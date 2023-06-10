@@ -44,12 +44,9 @@ Define-se na utilização de recurso de TI sob demanda por meio da internet e su
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 
 ### 3. Tipos de Cloud Computing
-* IaaS (Infrastructure as a Service):</br>
-Oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre recursos, contendo os componente básicos de TI em nuvem. Exemplo AWS EC2.
-* PaaS (Plataform as a Service):</br>
-Não é necessário o gerenciamento de infraestutura (hardware e sistemas operacionais), focando na implantação e gerenciamento das aplicações. Exemplo AWS Lambda.
-* SaaS (Software as a Service):</br>
-Oferece um produto completo, executado e gerenciado pelo provedor de serviços. Refere-se às aplicações de usuário final. Exemplo Amazon RDS.
+* IaaS (Infrastructure as a Service): oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre recursos, contendo os componente básicos de TI em nuvem. Exemplo AWS EC2.
+* PaaS (Plataform as a Service): não é necessário o gerenciamento de infraestutura (hardware e sistemas operacionais), focando na implantação e gerenciamento das aplicações. Exemplo AWS Lambda.
+* SaaS (Software as a Service): oferece um produto completo, executado e gerenciado pelo provedor de serviços. Refere-se às aplicações de usuário final. Exemplo Amazon RDS.
 
 <p align="center">
   <a><img src="./imgs/types.jpg"></a>
@@ -58,12 +55,9 @@ Oferece um produto completo, executado e gerenciado pelo provedor de serviços. 
 **[REFERÊNCIA](https://aws.amazon.com/pt/types-of-cloud-computing/)**
 
 ### 4. Modelos de Cloud Computing
-* Public:</br>
-Modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores próprios onde aloca dados, softwares e sistemas de seus clientes de forma independente e isolada.
-* Private:</br>
-Bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
-* Hybrid:</br>
-Permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.
+* Public: modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores próprios onde aloca dados, softwares e sistemas de seus clientes de forma independente e isolada.
+* Private: bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
+* Hybrid: permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.
 <hr>
 
 <div id="seguranca"></div>
@@ -72,10 +66,8 @@ Permite a mesclagem da praticidade da nuvem pública com a personalização e co
 
 ### 1. Modelo de responsabilidade
 Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS opera, gerencia e controla os componentes do sistema operacional do host e a camada de virtualização, até a segurança física das instalações em que o serviço opera. O cliente assume a gestão e a responsabilidade pelo sistema operacional convidado (inclusive atualizações e patches de segurança), por outros softwares de aplicativos associados e pela configuração do firewall do grupo de segurança fornecido pela AWS.
-* Responsabilidade da AWS:</br>
-Segurança da nuvem: a AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na sua nuvem.
-* Responsabilidade do cliente:</br>
-Segurança na nuvem: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele.
+* Responsabilidade da AWS: segurança da nuvem: a AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na sua nuvem.
+* Responsabilidade do cliente: segurança na nuvem: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele.
 
 <p align="center">
   <a><img src="./imgs/responsibility.jpg"></a>

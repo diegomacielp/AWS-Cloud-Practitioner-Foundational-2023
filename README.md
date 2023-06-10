@@ -4,9 +4,9 @@
 
 <p align="justify">Este repositório foi criado com o intuito de realizar minhas anotações durante meus estudos para a certificação <a href="https://aws.amazon.com/pt/certification/certified-cloud-practitioner/">AWS Certified Cloud Practitioner</a> e compartilhá-las com quem precise.</p>
 
-<div id="topico"></div>
+<div id="topicos"></div>
 
-* [Tópicos](#topico)
+* [Tópicos](#topicos)
     - [Pesos](#Pesos)
     - [Conceitos de Nuvem](#nuvem)
 
@@ -27,3 +27,6 @@ TOTAL | 100%
 <div id="nuvem"></div>
 
 ## Conceitos de nuvem
+
+### O que é CLoud Computing?
+aa

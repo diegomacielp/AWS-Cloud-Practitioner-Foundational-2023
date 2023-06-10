@@ -36,14 +36,10 @@ Define-se na utilização de recurso de TI sob demanda por meio da internet e su
 **[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/)**
 
 ### 2. Vantagens em se utilizar Cloud Computing
-* Agilidade:</br>
-Maior agilidade no processo de desenvolvimento e implatanção de soluções.
-* Elasticidade:</br>
-Permite provisionar mais recurso às soluções de acordo com a demanda, aumentando e diminuindo seus recursos de forma automática, sem interrupção do serviço.
-* Economia de custo:</br>
-O custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
-* Implantação global em questão de minutos:</br>
-A nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
+* Agilidade: maior agilidade no processo de desenvolvimento e implatanção de soluções.
+* Elasticidade: permite provisionar mais recurso às soluções de acordo com a demanda, aumentando e diminuindo seus recursos de forma automática, sem interrupção do serviço.
+* Economia de custo: o custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
+* Implantação global em questão de minutos: a nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 

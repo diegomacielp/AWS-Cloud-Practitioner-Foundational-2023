@@ -23,8 +23,7 @@ Domínio 3: Technology | 33%
 Domínio 4: Billing and pricing | 16%  
 TOTAL | 100%
 
-**[REFERÊNCIA](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
-)** 
+**[REFERÊNCIA](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)** 
 <hr>
 
 <div id="nuvem"></div>
@@ -33,6 +32,8 @@ TOTAL | 100%
 
 ### 1. O que é Cloud Computing?
 Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com o uso.
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/)**
 
 ### 2. Vantagens em se utilizar Cloud Computing
 * Agilidade:</br>
@@ -44,7 +45,6 @@ O custo é mais baixo devido a cobrança ser realizada de acordo com a utilizaç
 * Implantação global em questão de minutos:</br>
 A nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
 
-**[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/
-)**
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 
 ### 3. Tipos de Cloud Computing

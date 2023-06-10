@@ -10,6 +10,8 @@
     - [Pesos](#Pesos)
     - [Conceitos de nuvem](#nuvem)
     - [Segurança e conformidade](#seguranca)
+    - [Tecnologia](#tecnologia)
+    - [Faturamento e preços](#faturamento)
 <hr>
 
 <div id="Pesos"></div>
@@ -19,8 +21,8 @@ Domínio | % do exame
 ---------|----------|
 Domínio 1: Conceitos de nuvem | 26%  
 Domínio 2: Segurança e conformidade | 25%  
-Domínio 3: Technology | 33%  
-Domínio 4: Billing and pricing | 16%  
+Domínio 3: Tecnologia | 33%  
+Domínio 4: Faturamento e preços  | 16%  
 TOTAL | 100%
 
 **[REFERÊNCIA](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)** 

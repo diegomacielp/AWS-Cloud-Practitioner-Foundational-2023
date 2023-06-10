@@ -8,13 +8,13 @@
 
 * [Tópicos](#topicos)
     - [Pesos](#Pesos)
-    - [Conceitos de Nuvem](#nuvem)
+    - [Conceitos de nuvem](#nuvem)
 
 <hr>
 
 <div id="Pesos"></div>
 
-### Pesos
+## Pesos
 Domínio | % do exame
 ---------|----------|
 Domínio 1: Conceitos de nuvem | 26%  
@@ -23,17 +23,18 @@ Domínio 3: Technology | 33%
 Domínio 4: Billing and pricing | 16%  
 TOTAL | 100%
 
-**[Guia](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
+**[REFERÊNCIA](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
 )** 
 <hr>
 
 <div id="nuvem"></div>
 
-### Conceitos de nuvem
+## Conceitos de nuvem
 
-1. O que é Cloud Computing?</br>
-Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com o uso.</br></br>
-2. Vantagens em se utilizar Cloud Computing.</br>
+### 1. O que é Cloud Computing?
+Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com o uso.
+
+### 2. Vantagens em se utilizar Cloud Computing
 * Agilidade:</br>
 Maior agilidade no processo de desenvolvimento e implatanção de soluções.
 * Elasticidade:</br>
@@ -42,7 +43,8 @@ Permite provisionar mais recurso às soluções de acordo com a demanda, aumenta
 O custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
 * Implantação global em questão de minutos:</br>
 A nuvem possibilita ampliar seus atividades em várias regiões geográficas e implantação em minutos.
-3. Tipos de Cloud Computing.
 
-**[Guia](https://aws.amazon.com/pt/what-is-cloud-computing/
-)** 
+**[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/
+)**
+
+### 3. Tipos de Cloud Computing

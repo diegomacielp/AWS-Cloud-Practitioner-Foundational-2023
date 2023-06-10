@@ -32,7 +32,7 @@ TOTAL | 100%
 ### Conceitos de nuvem
 
 1. O que é Cloud Computing?</br>
-Defini-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com sua utilização.</br></br>
+Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com sua utilização.</br></br>
 2. Vantagens em se utilizar Cloud Computing.</br>
 * Agilidade
 * Elasticidade

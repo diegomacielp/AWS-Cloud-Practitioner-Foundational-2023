@@ -14,7 +14,7 @@
 
 <div id="Pesos"></div>
 
-## Pesos
+### Pesos
 Domínio | % do exame
 ---------|----------|
 Domínio 1: Conceitos de nuvem | 26%  
@@ -26,7 +26,7 @@ TOTAL | 100%
 
 <div id="nuvem"></div>
 
-## Conceitos de nuvem
+### Conceitos de nuvem
 
-### O que é CLoud Computing?
-aa
+1. O que é Cloud Computing?</br>
+aasdsdsd

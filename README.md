@@ -34,10 +34,14 @@ TOTAL | 100%
 1. O que é Cloud Computing?</br>
 Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com sua utilização.</br></br>
 2. Vantagens em se utilizar Cloud Computing.</br>
-* Agilidade
-* Elasticidade
-* Economia de custo
-* Implantação global em questão de minutos
+* Agilidade:</br>
+Maior agilidade no processo de desenvolvimento e implatanção de soluções.
+* Elasticidade:</br>
+Permite provisionar mais recurso às soluções de acordo com a demanda, aumentando e diminuindo seus recursos de forma automática, sem interrupção do serviço.
+* Economia de custo:</br>
+O custo é mais baixo devido a cobrança ser realizada de acordo com a utilização dos recursos, além de possibilitar a contratação de planos de economia, diminuindo ainda mais seu preço.
+* Implantação global em questão de minutos:</br>
+
 
 **[Guia](https://aws.amazon.com/pt/what-is-cloud-computing/
 )** 

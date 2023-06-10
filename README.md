@@ -7,12 +7,14 @@
 <div id="topico"></div>
 
 * [Tópicos](#topico)
-    - [Peso](#Peso)
+    - [Pesos](#Pesos)
+    - [Conceitos de Nuvem](#nuvem)
 
 <hr>
-<div id="Peso"></div>
 
-## Peso
+<div id="Pesos"></div>
+
+## Pesos
 Domínio | % do exame
 ---------|----------|
 Domínio 1: Conceitos de nuvem | 26%  
@@ -21,3 +23,7 @@ Domínio 3: Technology | 33%
 Domínio 4: Billing and pricing | 16%  
 TOTAL | 100%  
 <hr>
+
+<div id="nuvem"></div>
+
+## Conceitos de nuvem

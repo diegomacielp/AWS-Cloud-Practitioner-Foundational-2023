@@ -33,7 +33,7 @@ TOTAL | 100%
 ## Conceitos de nuvem
 
 ### 1. O que é Cloud Computing?
-Define-se na utilização de recurso de TI sob demanda por meio da internet e sua cobrança é realizada de acordo com o uso.
+Define-se na utilização de recurso de TI sob demanda por meio da internet, permitindo escabilidade, e sua cobrança é realizada de acordo com o uso.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/what-is-cloud-computing/)**
 
@@ -87,3 +87,8 @@ Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS o
 * **CloudShell:** shell pré-autenticado baseado em navegador onde é possível iniciar diretamente do AWS Management Console.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/cloud9/latest/user-guide/sample-aws-cli.html)**
+<hr>
+
+<div id="faturamento"></div>
+
+## Faturamento e preços 

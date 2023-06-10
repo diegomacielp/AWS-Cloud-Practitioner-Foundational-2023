@@ -75,3 +75,14 @@ Permite a mesclagem da praticidade da nuvem pública com a personalização e co
 ## Segurança e conformidade
 
 ### 1. Modelo de responsabilidade
+Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS opera, gerencia e controla os componentes do sistema operacional do host e a camada de virtualização, até a segurança física das instalações em que o serviço opera. O cliente assume a gestão e a responsabilidade pelo sistema operacional convidado (inclusive atualizações e patches de segurança), por outros softwares de aplicativos associados e pela configuração do firewall do grupo de segurança fornecido pela AWS.
+* Responsabilidade da AWS:</br>
+Segurança da nuvem: a AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na sua nuvem.
+* Responsabilidade do cliente:</br>
+Segurança na nuvem: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele.
+
+<p align="center">
+  <a><img src="./imgs/responsibility.jpg"></a>
+</p>
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)**

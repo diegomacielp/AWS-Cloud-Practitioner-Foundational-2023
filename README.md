@@ -48,7 +48,6 @@ A nuvem possibilita ampliar seus atividades em várias regiões geográficas e i
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)**
 
 ### 3. Tipos de Cloud Computing
-Modelos de computação em nuvem:
 * IaaS (Infrastructure as a Service):</br>
 Oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre recursos, contendo os componente básicos de TI em nuvem. Exemplo AWS EC2.
 * PaaS (Plataform as a Service):</br>
@@ -60,9 +59,12 @@ Oferece um produto completo, executado e gerenciado pelo provedor de serviços. 
   <a><img src="./imgs/types.jpg"></a>
 </p>
 
-Modelos de implantação de computação em nuvem:
-* Public:
-* Private:
-* Hybrid:
-
 **[REFERÊNCIA](https://aws.amazon.com/pt/types-of-cloud-computing/)**
+
+### 4. Modelos de Cloud Computing
+* Public:</br>
+Modelo mais comum e utilizado, nesse tipo de contrato, o provedor tem servidores próprios onde aloca dados, softwares e sistemas de seus clientes de forma independente e isolada.
+* Private:</br>
+Bem parecida com o modelo público, com a diferença que a infraestrutura contratada não é compartilhada com outros clientes.
+* Hybrid:</br>
+Permite a mesclagem da praticidade da nuvem pública com a personalização e contenção da nuvem privada.

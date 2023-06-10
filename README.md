@@ -76,3 +76,14 @@ Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS o
 </p>
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)**
+<hr>
+
+<div id="tecnologia"></div>
+
+## Tecnologia
+
+### 1. AWS CLI e CloudShell
+* **AWS CLI:** ferramenta unificada para o gerenciamento de seus produtos da AWS, instalada localmente nas estações de trabalho.
+* **CloudShell:** shell pré-autenticado baseado em navegador onde é possível iniciar diretamente do AWS Management Console.
+
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/cloud9/latest/user-guide/sample-aws-cli.html)**

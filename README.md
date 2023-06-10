@@ -21,7 +21,10 @@ Domínio 1: Conceitos de nuvem | 26%
 Domínio 2: security and compliance | 25%  
 Domínio 3: Technology | 33%  
 Domínio 4: Billing and pricing | 16%  
-TOTAL | 100%  
+TOTAL | 100%
+
+**[Guia](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
+)** 
 <hr>
 
 <div id="nuvem"></div>

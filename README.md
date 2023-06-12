@@ -87,6 +87,21 @@ Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS o
 * **CloudShell:** shell pré-autenticado baseado em navegador onde é possível iniciar diretamente do AWS Management Console.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/cloud9/latest/user-guide/sample-aws-cli.html)**
+
+### 2. Infraestrutura global da AWS
+A Nuvem AWS abrange 99 zonas de disponibilidade em 31 regiões geográficas por todo o mundo, com planos já divulgados para mais 15 zonas de disponibilidade e outras 5 regiões da AWS no Canadá, Israel, Malásia, Nova Zelândia e Tailândia. 
+
+<p align="center">
+  <a><img src="./imgs/global.png"></a>
+</p>
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/about-aws/global-infrastructure/)**
+
+### 3. Regiões da AWS
+Local físico em todo o mundo onde datacenters são agrupados. Cada grupo de datacenters lógicos é chamado de zona de disponibilidade. Cada região da AWS consiste no mínimo em três AZs isoladas e separadas fisicamente em uma área geográfica.
+
+### 4. Zonas de disponibilidade (AZ)
+Consistem em um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS. As AZs proporcionam aos clientes a capacidade de operar suas aplicações com alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. As AZs são fisicamente separadas por uma distância significativa (vários quilômetros) das outras AZs, embora todas estejam em um raio de até 100 km entre si.
 <hr>
 
 <div id="faturamento"></div>

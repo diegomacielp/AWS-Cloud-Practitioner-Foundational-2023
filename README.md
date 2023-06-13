@@ -84,9 +84,20 @@ Com o Identity and Access Management (IAM) é possível especificar quem ou o qu
   <a><img src="./imgs/iam.png"></a>
 </p>
 
-**[REFERÊNCIA](https://aws.amazon.com/pt/iam/)**
+### 2.1 Usuários, grupos, funções e políticas
+* **Usuários:** qualquer credencial, ou identidade do IAM, que possua acessar a AWS via console, CLI ou API. Após criado, o usuário somente tem permissão de fazer login na plataforma devido o princípio do menor privilégio (least privilege principle) e recomenda-se sempre utiliza-lo. Por questões de segunrança, não é recomendado a utilização do usuário root da conta.
+* **Grupos:** coleção de usuários do IAM. Facilitam o gerenciamento de permissões para grandes conjuntos de usuários.
+* **Funções:** identidade do IAM que permite que uma conta tenha permissões específicas, podendo ser aplicadas a serviços da AWS
+* **Políticas:** regras que concedem ou bloqueiam acesso de usuários ou grupos aos serviços da AWS.
 
-### 2.1 Usuários, grupos e políticas
+### 2.2 MFA
+Recomenda-se a configuração da autenticação multifator (MFA) para ajudar a proteger os recursos da AWS. É pssível habilitar a MFA para o Usuário raiz da conta da AWS ou para usuários do IAM.
+
+### 2.3 Política de senha no IAM
+Recomenda-se definir uma política de senha personalizada às contas da AWS para especificar requisitos de complexidade e períodos de alternância obrigatórios para as senhas de usuários do IAM.
+
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/introduction.html/)**
+
 <hr>
 
 <div id="tecnologia"></div>

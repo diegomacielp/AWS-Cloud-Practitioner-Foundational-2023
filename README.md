@@ -76,6 +76,17 @@ Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS o
 </p>
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)**
+
+### 2. IAM
+Com o Identity and Access Management (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.
+
+<p align="center">
+  <a><img src="./imgs/iam.png"></a>
+</p>
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/iam/)**
+
+### 2.1 Usuários, grupos e políticas
 <hr>
 
 <div id="tecnologia"></div>

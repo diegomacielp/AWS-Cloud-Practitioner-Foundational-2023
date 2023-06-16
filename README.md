@@ -117,27 +117,36 @@ A Nuvem AWS abrange 99 zonas de disponibilidade em 31 regiões geográficas por 
   <a><img src="./imgs/global.png"></a>
 </p>
 
-### 3. Regiões da AWS
+### 2.1. Regiões da AWS
 Local físico em todo o mundo onde datacenters são agrupados. Cada grupo de datacenters lógicos é chamado de zona de disponibilidade. Cada região da AWS consiste no mínimo em três AZs isoladas e separadas fisicamente em uma área geográfica.
 
-### 4. Zonas de disponibilidade (AZ)
+### 2.2. Zonas de disponibilidade (AZ)
 Consistem em um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS. As AZs proporcionam aos clientes a capacidade de operar suas aplicações com alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. As AZs são fisicamente separadas por uma distância significativa (vários quilômetros) das outras AZs, embora todas estejam em um raio de até 100 km entre si.
 
-### 5. Zonas locais
+### 2.3. Zonas locais
 Aproximam a computação, o armazenamento, o banco de dados e outros produtos da AWS selecionados dos usuários finais. Com isso é possível executar facilmente aplicativos altamente exigentes que exigem latências em milissegundos para seus usuários finais, como criação de conteúdo de mídia e entretenimento, jogos em tempo real, simulações de reservatórios, automação de projetos eletrônicos e machine learning.
 
-### 6. AWS Wavelength
+### 2.4. AWS Wavelength
 Implantações de infraestrutura da AWS que incorporam serviços de computação e armazenamento da AWS aos datacenters dos provedores de telecomunicações na borda das redes 5G e acessam facilmente a variedade de serviços da AWS na região.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/about-aws/global-infrastructure/)**
 
-### 7. AWS Outspots
+### 2.5. AWS Outspots
 Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS para praticamente qualquer local da borda ou on-premises para uma experiência híbrida verdadeiramente consistente. As soluções do Outposts permitem que os clientes estendam e executem serviços da AWS nativos on-premises.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/outposts/)**
+
+### 3. Plano de suporte
+
+* **Basic:** plano Básico é gratuito e oferece suporte para dúvidas sobre contas e faturamento e aumentos de cotas de serviços.
+* **Developer:** plano Desenvolvedor concede orientação sobre as melhores práticas, ferramentas de diagnóstico, suporte de arquitetura básica e número ilimitado de casos de suporte.
+* **Business:** plano Business concede orientação de casos de uso, AWS Trusted Advisor, suporte a software de terceiros e número ilimitado de usuários do AWS Identity and Access Management (IAM).
+* **Enterprise:** plano Enterprise concede orientação sobre arquitetura de aplicação, gerenciamento de eventos de infraestrutura, gerente de conta técnico, roteamento de casos "white-glove" e análises empresariais de gerenciamento.
+
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/awssupport/latest/user/aws-support-plans.html)**
 
 <hr>
 
 <div id="faturamento"></div>
 
-## Faturamento e preços 
+## Faturamento e preços

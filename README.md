@@ -159,7 +159,18 @@ Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Service
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)**
 
-### 5. Outros serviços AWS
+### 5. Serviços de armazenamento
+
+* **EBS:**
+* **EFS:**
+* **CloudFront:**
+* **S3:** Amazon Simple Storage Service é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.
+* **S3 Glacier:** classe de armazenamento do S3 desenvolvida especificamente para o arquivamento de dados, para oferecer a mais alta performance, a maior flexibilidade de recuperação e o armazenamento de arquivamento de menor custo na nuvem.
+* **Snowball:**
+* **Storage Gateway:**
+* **Instance Store:**
+
+### 6. Outros serviços AWS
 
 * **Batch:** permite que desenvolvedores  executem milhares de tarefas de computação em lote e em ML enquanto otimizam recursos computacionais para que possa se concentrar na análise de resultados e na solução de problemas. 
 * **Lightsail:** maneira mais fácil de começar a usar a AWS para desenvolvedores, pequenas empresas, estudantes e outros usuários que precisam de uma solução para construir e hospedar suas aplicações na nuvem.

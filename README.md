@@ -159,13 +159,11 @@ Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Service
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)**
 
-### 5. AWS Batch
+### 5. Outros serviços AWS
 
-Permite que desenvolvedores  executem milhares de tarefas de computação em lote e em ML enquanto otimizam recursos computacionais para que possa se concentrar na análise de resultados e na solução de problemas. 
-
-### 6. AWS Lightsail
-
-Maneira mais fácil de começar a usar a AWS para desenvolvedores, pequenas empresas, estudantes e outros usuários que precisam de uma solução para construir e hospedar suas aplicações na nuvem.
+* **Batch:** permite que desenvolvedores  executem milhares de tarefas de computação em lote e em ML enquanto otimizam recursos computacionais para que possa se concentrar na análise de resultados e na solução de problemas. 
+* **Lightsail:** maneira mais fácil de começar a usar a AWS para desenvolvedores, pequenas empresas, estudantes e outros usuários que precisam de uma solução para construir e hospedar suas aplicações na nuvem.
+* **Lambda:** serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores.
 
 <hr>
 

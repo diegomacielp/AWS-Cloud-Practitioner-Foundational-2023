@@ -145,6 +145,20 @@ Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS p
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/awssupport/latest/user/aws-support-plans.html)**
 
+### 4. EC2 (Elastic Compute Cloud)
+
+Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Services. Elimina a necessidade de investir em hardware inicialmente, portanto, permitindo ao desenvolver implantar aplicativos com mais rapidez.
+
+### 4.1 Tipos de instâncias EC2
+
+* **Uso geral:** ideais para aplicativos que usam  recursos de computação, memória e rede em proporções iguais, como servidores web e repositórios de código.
+* **Otimizadas para computação:** ideais para aplicativos vinculados a computação que se beneficiam de processadores de alta performance.
+* **Otimizada para memória:** fornece performance rápida para workloads que processam grandes conjuntos de dados na memória.
+* **Otimizada para armazenamento:** projetadas para cargas de trabalho que exigem acesso de leitura e gravação sequencial alto a conjuntos de dados muito grandes no armazenamento local.
+* **Computação acelerada:** usam aceleradores de hardware, ou coprocessadores, para executar funções, como cálculos de número de ponto flutuante, processamento de gráficos ou correspondência de padrões de dados, mais eficientemente do que é possível no software em execução nas CPUs.
+
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)**
+
 <hr>
 
 <div id="faturamento"></div>

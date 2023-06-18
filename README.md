@@ -145,9 +145,9 @@ Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS p
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/awssupport/latest/user/aws-support-plans.html)**
 
-### 4. EC2 (Elastic Compute Cloud)
+### 4. EC2
 
-Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Services. Elimina a necessidade de investir em hardware inicialmente, portanto, permitindo ao desenvolver implantar aplicativos com mais rapidez.
+Elastic Compute Cloud é um serviço que oferece uma capacidade de computação escalável na AWS. Elimina a necessidade de investir em hardware inicialmente, portanto, permitindo ao desenvolver implantar aplicativos com mais rapidez.
 
 ### 4.1 Tipos de instâncias EC2
 
@@ -161,7 +161,7 @@ Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Service
 
 ### 5. Serviços de armazenamento
 
-* **EBS:**
+* **EBS:** Amazon Elastic Block Store é um serviço de armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o EC2.
 * **EFS:**
 * **CloudFront:**
 * **S3:** Amazon Simple Storage Service é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.

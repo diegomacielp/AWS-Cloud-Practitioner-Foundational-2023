@@ -162,13 +162,13 @@ Elastic Compute Cloud é um serviço que oferece uma capacidade de computação 
 ### 5. Serviços de armazenamento
 
 * **EBS:** Amazon Elastic Block Store é um serviço de armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o EC2.
-* **EFS:**
-* **CloudFront:**
+* **EFS:** Amazon Elastic File System aumenta e diminui automaticamente conforme se adiciona e remove arquivos, sem a necessidade de gerenciamento ou provisionamento.
+* **CloudFront:** serviço de rede de entrega de conteúdo (CDN) criado para alta performance, segurança e conveniência do desenvolvedor.
 * **S3:** Amazon Simple Storage Service é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.
 * **S3 Glacier:** classe de armazenamento do S3 desenvolvida especificamente para o arquivamento de dados, para oferecer a mais alta performance, a maior flexibilidade de recuperação e o armazenamento de arquivamento de menor custo na nuvem.
-* **Snowball:**
-* **Storage Gateway:**
-* **Instance Store:**
+* **Snowball:** serviço que fornece dispositivos robustos e seguros para que possa utilizar os recursos de armazenamento e computação da AWS em ambientes de borda e transferir dados de e para a AWS.
+* **Storage Gateway:** conjunto de serviços de armazenamento na nuvem híbrida que oferece acesso on-premises a armazenamento virtual na nuvem praticamente ilimitado.
+* **Instance Store:** fornece armazenamento temporário em nível de bloco para a instância. Esse armazenamento está localizado em discos que estão anexados fisicamente ao computador host.
 
 ### 6. Outros serviços AWS
 

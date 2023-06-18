@@ -165,7 +165,7 @@ Oferece uma capacidade de computação escalável na Nuvem da Amazon Web Service
 * **Lightsail:** maneira mais fácil de começar a usar a AWS para desenvolvedores, pequenas empresas, estudantes e outros usuários que precisam de uma solução para construir e hospedar suas aplicações na nuvem.
 * **Lambda:** serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores.
 * **SNS:** Simple Notification Service é um serviço gerenciado que fornece entrega de mensagens de editores para assinantes (também conhecido como *ProdutoreseConsumidores*).
-* **SQS:** O Amazon Simple Queue Service permite enviar, armazenar e recebar mensagens entre componentes de software em qualquer volume, sem perder mensagens ou precisar que outros serviços estejam disponíveis.
+* **SQS:** Amazon Simple Queue Service permite enviar, armazenar e recebar mensagens entre componentes de software em qualquer volume, sem perder mensagens ou precisar que outros serviços estejam disponíveis.
 * **ECS:** Amazon Elastic Container Service é um serviço de orquestração de contêineres totalmente gerenciado que simplifica a implantação, o gerenciamento e a escalabilidade de aplicações conteinerizadas.
 * **EKS:** Amazon Elastic Kubernetes Service é um serviço gerenciado que pode ser usado para executar o Kubernetes na AWS, sem necessidade de instalar e manter seus próprios nós ou ambiente de gerenciamento do Kubernetes.
 

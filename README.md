@@ -177,6 +177,15 @@ Amazon Simple Storage Service é um serviço de armazenamento de objetos que ofe
 
 ### 5.1 Classes de armazenamento
 
+* **S3 Standard:** esse tipo de armazenamento oferece objetos que possuem um nível resiliência muito alta, permitindo uma disponibilidade e performance para dados que são acessados com bastante frequência.
+* **S3 Intelligent-Tiering:** criado pensando na otimização, ou seja, ela move de forma automática os dados para um nível que seja mais econômico, gerando assim um ótimo corte de gastos. Possui dois níveis: acesso frequente e acesso infrequente.
+* **S3 Standard-Infrequent Acess (S3 Standard-IA):** usado em casos onde os dados precisam ser acessados de forma rápida, porém com pouca frequência.
+* **S3 One-Zone-Infrequent Acess (S3 One Zone-IA):** mesma característica do S3 Standard-IA, com a diferença que os dados são armazenados em uma única Availability Zone, baixando o custo.
+* **S3 Glacier Instant Retrieval:** armazenamento de custo mais baixo para dados de longa duração, que raramente são acessados e exigem recuperação em milissegundos.
+* **S3 Glacier Flexible Retrieval:** oferece armazenamento de baixo custo, custo até 10% menor (do que o S3 Glacier Instant Retrieval), para dados de arquivo que são acessados 1 a 2 vezes por ano e recuperados de forma assíncrona.
+* **S3 Glacier Deep Archive:** classe de armazenamento mais acessível do Amazon S3 e oferece suporte à retenção e preservação digital de longo prazo para dados que podem ser acessados uma ou duas vezes por ano. Essa classe é projetada para clientes que mantêm conjuntos de dados por 7 a 10 anos ou mais para cumprir requisitos de conformidade regulatória, especialmente em setores altamente regulados como serviços financeiros, saúde e setores públicos.
+* **S3 Outposts:** oferece armazenamento de objetos para seu ambiente de AWS Outposts on-premises.
+
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)**
 
 ### 6. Serviços de armazenamento

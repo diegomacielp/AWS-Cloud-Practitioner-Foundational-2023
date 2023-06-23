@@ -175,6 +175,8 @@ Amazon Simple Storage Service é um serviço de armazenamento de objetos que ofe
   <a><img src="./imgs/s3.png"></a>
 </p>
 
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)**
+
 ### 5.1 Classes de armazenamento
 
 * **S3 Standard:** esse tipo de armazenamento oferece objetos que possuem um nível resiliência muito alta, permitindo uma disponibilidade e performance para dados que são acessados com bastante frequência.
@@ -197,8 +199,6 @@ Taxa de recuperação | N/D | N/D | por GB recuperado | por GB recuperado | por 
 Latência de primeiro byte | milissegundos | milissegundos | milissegundos | milissegundos | milissegundos | minutos ou horas
 Tipo de armazenamento | Objeto | Objeto | Objeto | Objeto | Objeto | Objeto
 Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
-
-**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)**
 
 ### 6. Serviços de armazenamento
 

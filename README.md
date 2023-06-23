@@ -186,6 +186,18 @@ Amazon Simple Storage Service é um serviço de armazenamento de objetos que ofe
 * **S3 Glacier Deep Archive:** classe de armazenamento mais acessível do Amazon S3 e oferece suporte à retenção e preservação digital de longo prazo para dados que podem ser acessados uma ou duas vezes por ano. Essa classe é projetada para clientes que mantêm conjuntos de dados por 7 a 10 anos ou mais para cumprir requisitos de conformidade regulatória, especialmente em setores altamente regulados como serviços financeiros, saúde e setores públicos.
 * **S3 Outposts:** oferece armazenamento de objetos para seu ambiente de AWS Outposts on-premises.
 
+Classes | S3 Standard | S3 Intelligent-Tiering | S3 Standard-IA | S3 One Zone-IA | S3 Glacier Instant Retrieval | S3 Glacier Flexible Retrieval
+---------|----------|----------|----------|----------|----------|----------|
+Projetado para resiliência | 99,999999999% | 99,999999999% | 99,999999999% | 99,999999999% | 99,999999999% | 99,999999999%
+Projetado para disponibilidade |  99,99% | 99,99% | 99,99% | 99,95% | 99,99% | 99,99%
+Acordo de nível de serviço de disponibilidade | 99,9% | 99% | 99% | 99% | 99% | 99,9%
+Zonas de disponibilidade | ≥3 | ≥3 | ≥3 | 1 | ≥3 | ≥3
+Cobrança mínima de capacidade por objeto | N/D | N/D | 128 KB | 128 KB | 128 KB | N/D
+Taxa de recuperação | N/D | N/D | por GB recuperado | por GB recuperado | por GB recuperado | por GB recuperado | por GB recuperado
+Latência de primeiro byte | milissegundos | milissegundos | milissegundos | milissegundos | milissegundos | minutos ou horas
+Tipo de armazenamento | Objeto | Objeto | Objeto | Objeto | Objeto | Objeto
+Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
+
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)**
 
 ### 6. Serviços de armazenamento

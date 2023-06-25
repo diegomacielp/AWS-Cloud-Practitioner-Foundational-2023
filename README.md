@@ -250,3 +250,19 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 <div id="faturamento"></div>
 
 ## Faturamento e preços
+
+### 1. Billing
+
+Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, gerenciar preferências de faturamento e configurações de impostos e acessar outros serviços de gerenciamento financeiro na nuvem. Avaliar rapidamente se os gastos mensais estão alinhados a períodos anteriores, previsões ou orçamentos para investigar e executar ações corretivas em tempo hábil. Os fundamentos da precificação da AWS são: computação, armazenamento e *Data Transfer Out*.
+
+### 1.1 Sistema de cobrança da AWS
+
+* **Pay as you go:** pague e use.
+* **Pay for what you use:** pague de acordo com o que utilizar.
+* **Pay less by using more:** pague menos por quando mais usar.
+* **Pay even less:** pague muito menos quando se reservar.
+
+### 1.2 Capex vs. Opex
+
+* **Capex:** ou custos de capital, se trata de investimentos em bens de capital, que são investimentos para obtenção de benefícios no longo prazo.
+* **Opex:** ou custo operacional, se trata de inventimentos para se manter a operação, não há grandes despesas iniciais, o que permite maior fluxo de caixa.

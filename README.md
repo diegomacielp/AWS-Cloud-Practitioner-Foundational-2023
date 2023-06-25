@@ -287,3 +287,11 @@ Permite criar novas contas da AWS sem custo adicional. Com contas em uma organiz
 <p align="center">
   <a><img src="./imgs/organizations.png"></a>
 </p>
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/organizations/)**
+
+### 4. Calculator
+
+servSço da Web que pode ser usado para criar estimativas de custos correspondentes ao caso de uso da AWS. O AWS Pricing Calculator é útil para pessoas que nunca usaram a AWS e para quem deseja reorganizar ou expandir seu uso.
+
+**[REFERÊNCIA](https://calculator.aws/)**

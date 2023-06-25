@@ -137,7 +137,6 @@ Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS p
 **[REFERÊNCIA](https://aws.amazon.com/pt/outposts/)**
 
 ### 3. Plano de suporte
-
 * **Basic:** plano Básico é gratuito e oferece suporte para dúvidas sobre contas e faturamento e aumentos de cotas de serviços.
 * **Developer:** plano Desenvolvedor concede orientação sobre as melhores práticas, ferramentas de diagnóstico, suporte de arquitetura básica e número ilimitado de casos de suporte.
 * **Business:** plano Business concede orientação de casos de uso, AWS Trusted Advisor, suporte a software de terceiros e número ilimitado de usuários do AWS Identity and Access Management (IAM).
@@ -146,11 +145,9 @@ Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS p
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/awssupport/latest/user/aws-support-plans.html)**
 
 ### 4. EC2
-
 Elastic Compute Cloud é um serviço que oferece uma capacidade de computação escalável na AWS. Elimina a necessidade de investir em hardware inicialmente, portanto, permitindo ao desenvolver implantar aplicativos com mais rapidez.
 
 ### 4.1 Tipos de instâncias EC2
-
 * **Uso geral:** ideais para aplicativos que usam  recursos de computação, memória e rede em proporções iguais, como servidores web e repositórios de código.
 * **Otimizadas para computação:** ideais para aplicativos vinculados a computação que se beneficiam de processadores de alta performance.
 * **Otimizada para memória:** fornece performance rápida para workloads que processam grandes conjuntos de dados na memória.
@@ -160,32 +157,25 @@ Elastic Compute Cloud é um serviço que oferece uma capacidade de computação 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)**
 
 ### 4.2 Auto Scaling
-
 Ajuda a garantir que tenha o número correto de instâncias do Amazon EC2 disponíveis para processar a carga da aplicação. A  criação de coleções de instâncias EC2 é chamada de grupos de Auto Scaling. É possível especificar o número mínimo de instâncias em cada grupo do Auto Scaling, e o Amazon EC2 Auto Scaling garante que o grupo nunca seja menor que esse tamanho. É possível especificar o número máximo de instâncias em cada grupo do Auto Scaling, e o Amazon EC2 Auto Scaling garante que o grupo nunca seja maior que esse tamanho.
-
 * **Scaling UP:** Escalonamento vertical
 * **Scaling OUT:** Escalonamento horizontal (Auto Scaling)
 
 ### 4.3 Políticas de escabilidade
-
 * **Step/Simple Scaling:** escolhe as métricas de escalabilidade e os valores de limite para os CloudWatch alarmes que invocam o processo de escalabilidade. Também define como o grupo do Auto Scaling deve ser escalado quando um limite for violado para um número especificado de períodos de avaliação.
 * **Target Tracking:** especifica uma métrica CloudWatch e um valor de objetivo que representa a utilização média ideal ou o nível de throughput da aplicação. Em seguida, o Amazon EC2 Auto Scaling poderá aumentar a escala na horizontal do grupo (adicionar mais instâncias) para processar picos de tráfego, e reduzir a escala na horizontal do grupo (executar menos instâncias) para reduzir custos durante períodos de baixa utilização ou throughput.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)**
 
 ### 4.4 Elastic Load Balancer
-
 O Elastic Load Balancing (ELB) distribui automaticamente o tráfego de aplicações de entrada entre vários destinos e dispositivos virtuais em uma ou mais Zonas de disponibilidade (AZs). É compatível com os seguintes tipos de balanceadores de carga: Application Load Balancers e Network Load Balancers. Os serviços do Amazon ECS podem usar esses tipos de balanceador de carga. Os application load balancers são usados para encaminhar o tráfego HTTP/HTTPS (ou Camada 7). Os network load balancers e os classic load balancers são usados para encaminhar o tráfego TCP (ou da Camada 4).
-
 * **Application Load Balancer (ALB):** toma decisões de roteamento na camada da aplicação (HTTP/HTTPS), oferece suporte ao roteamento com base em caminho e pode encaminhar solicitações para uma ou mais portas em cada instância de contêiner no cluster. Os application load balancers oferecem suporte ao mapeamento de porta de host dinâmico.
 * **Network Load Balancer (NLB):** toma decisões de roteamento na camada de transporte (TCP/SSL). Ele pode processar milhões de solicitações por segundo. Após o load balancer receber uma conexão, ele seleciona um destino do grupo de destino para a regra padrão usando um algoritmo de roteamento de hash de fluxo.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonECS/latest/developerguide/load-balancer-types.html)**
 
 ### 5. S3
-
 Amazon Simple Storage Service é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.
-
 * Armazenamento ilimitado
 * Baixa latência e alta velocidade
 * Compartilhamento de arquivos ou criação de website estático
@@ -201,7 +191,6 @@ Amazon Simple Storage Service é um serviço de armazenamento de objetos que ofe
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)**
 
 ### 5.1 Classes de armazenamento
-
 * **S3 Standard:** esse tipo de armazenamento oferece objetos que possuem um nível resiliência muito alta, permitindo uma disponibilidade e performance para dados que são acessados com bastante frequência.
 * **S3 Intelligent-Tiering:** criado pensando na otimização, ou seja, ela move de forma automática os dados para um nível que seja mais econômico, gerando assim um ótimo corte de gastos. Possui dois níveis: acesso frequente e acesso infrequente.
 * **S3 Standard-Infrequent Acess (S3 Standard-IA):** usado em casos onde os dados precisam ser acessados de forma rápida, porém com pouca frequência.
@@ -224,7 +213,6 @@ Tipo de armazenamento | Objeto | Objeto | Objeto | Objeto | Objeto | Objeto
 Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 
 ### 6. Serviços de armazenamento
-
 * **AMI:** Amazon Machine Image é uma imagem compatível e mantida pela AWS, que fornece as informações necessárias para iniciar uma instância.
 * **EBS:** Amazon Elastic Block Store é um serviço de armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o EC2.
 * **EFS:** Amazon Elastic File System aumenta e diminui automaticamente conforme se adiciona e remove arquivos, sem a necessidade de gerenciamento ou provisionamento.
@@ -235,7 +223,6 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 * **Instance Store:** fornece armazenamento temporário em nível de bloco para a instância. Esse armazenamento está localizado em discos que estão anexados fisicamente ao computador host.
 
 ### 7. Outros serviços AWS
-
 * **Batch:** permite que desenvolvedores  executem milhares de tarefas de computação em lote e em ML enquanto otimizam recursos computacionais para que possa se concentrar na análise de resultados e na solução de problemas. 
 * **Lightsail:** maneira mais fácil de começar a usar a AWS para desenvolvedores, pequenas empresas, estudantes e outros usuários que precisam de uma solução para construir e hospedar suas aplicações na nuvem.
 * **Lambda:** serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores.
@@ -252,36 +239,30 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 ## Faturamento e preços
 
 ### 1. Billing
-
 Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, gerenciar preferências de faturamento e configurações de impostos e acessar outros serviços de gerenciamento financeiro na nuvem. Avaliar rapidamente se os gastos mensais estão alinhados a períodos anteriores, previsões ou orçamentos para investigar e executar ações corretivas em tempo hábil. Os fundamentos da precificação da AWS são: computação, armazenamento e *Data Transfer Out*.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/account-billing/index.html)**
 
 ### 1.1 Sistema de cobrança da AWS
-
 * **Pay as you go:** pague e use.
 * **Pay for what you use:** pague de acordo com o que utilizar.
 * **Pay less by using more:** pague menos por quando mais usar.
 * **Pay even less:** pague muito menos quando se reservar.
 
 ### 1.2 Capex vs. Opex
-
 * **Capex:** ou custos de capital, se trata de investimentos em bens de capital, que são investimentos para obtenção de benefícios no longo prazo.
 * **Opex:** ou custo operacional, se trata de inventimentos para se manter a operação, não há grandes despesas iniciais, o que permite maior fluxo de caixa.
 
 ### 1.3 Budget e Cost Explorer
-
 * **Budget:** definição de orçamentos personalizados para rastrear custos e o uso e criação de alertas de notificações por email ou SNS se exceder o limite predefinido.
 * **Cost Explorer:** interface de fácil utilização que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Gera relatórios personalizados que analisam dados de custos e uso. Analisa dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalha os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.
 
 ### 2. Trusted Advisor
-
 Faz recomendações que ajudam a seguir as práticas recomendadas da AWS. O Trusted Advisor avalia a conta por meio de verificações. Essas verificações identificam formas de otimizar a infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, pode seguir as recomendações da verificação para otimizar o recursos e serviços.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/premiumsupport/technology/trusted-advisor/)**
 
 ### 3. Organizations
-
 Permite criar novas contas da AWS sem custo adicional. Com contas em uma organização, pode facilmente alocar recursos, agrupar contas e aplicar políticas de governança a contas ou grupos.
 
 <p align="center">
@@ -291,7 +272,6 @@ Permite criar novas contas da AWS sem custo adicional. Com contas em uma organiz
 **[REFERÊNCIA](https://aws.amazon.com/pt/organizations/)**
 
 ### 4. Calculator
-
 servSço da Web que pode ser usado para criar estimativas de custos correspondentes ao caso de uso da AWS. O AWS Pricing Calculator é útil para pessoas que nunca usaram a AWS e para quem deseja reorganizar ou expandir seu uso.
 
 **[REFERÊNCIA](https://calculator.aws/)**

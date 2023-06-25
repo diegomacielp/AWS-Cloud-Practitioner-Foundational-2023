@@ -78,7 +78,7 @@ Constitue em uma responsabilidade compartilhada entre a AWS e o cliente. A AWS o
 **[REFERÊNCIA](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)**
 
 ### 2. AWS Artifact
-Primeira opção de recurso para informações relacionadas à conformidade que importam aos clientes. Ele fornece acesso sob demanda a relatórios de segurança e conformidade da AWS e ISVs que vendem seus produtos no AWS Marketplace.
+Portal de autoatendimento para recuperação de artefatos de auditoria que oferece aos clientes acesso sob demanda à documentação de conformidade e aos acordos da AWS.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/artifact/)**
 

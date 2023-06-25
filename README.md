@@ -82,23 +82,41 @@ Portal de autoatendimento para recuperação de artefatos de auditoria que ofere
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/artifact/)**
 
-### 3. IAM
+### 3. WAF vs. Shield
+* **WAF:** ajuda você a se proteger contra explorações comuns da Web e bots que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos excessivos.
+
+<p align="center">
+  <a><img src="./imgs/waf.png"></a>
+</p>
+
+* **Shield:** serviço gerenciado de proteção contra DDoS que protege as aplicações em execução na AWS.
+
+<p align="center">
+  <a><img src="./imgs/shield.png"></a>
+</p>
+
+### 4. AWS Inpsector, Trusted Advisor e CloudTrail
+* **AWS Inpsector:** serviço de gerenciamento de vulnerabilidades que verifica continuamente AWS workloads em busca de vulnerabilidades de software e exposição não intencional da rede. Descobre e escaneia automaticamente instâncias do Amazon EC2 em execução, imagens de contêineres no Amazon Elastic Container Registry (Amazon ECR) e AWS Lambda funções em busca de vulnerabilidades de software conhecidas e exposição não intencional à rede.
+* **Trusted Advisor:** faz recomendações que ajudam a seguir as práticas recomendadas da AWS. Avalia a conta por meio de verificações, indentificando formas de otimizar a infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, pode seguir as recomendações da verificação para otimizar o recursos e serviços.
+* **CloudTrail:** monitora e registra a atividade da conta por toda a infraestrutura da AWS, oferecendo controle sobre o armazenamento, análise e ações de remediação.
+
+### 5. IAM
 Com o Identity and Access Management (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.
 
 <p align="center">
   <a><img src="./imgs/iam.png"></a>
 </p>
 
-### 3.1 Usuários, grupos, funções e políticas
+### 5.1 Usuários, grupos, funções e políticas
 * **Usuários:** qualquer credencial, ou identidade do IAM, que possua acessar a AWS via console, CLI ou API. Após criado, o usuário somente tem permissão de fazer login na plataforma devido o princípio do menor privilégio (least privilege principle) e recomenda-se sempre utiliza-lo. Por questões de segunrança, não é recomendado a utilização do usuário root da conta.
 * **Grupos:** coleção de usuários do IAM. Facilitam o gerenciamento de permissões para grandes conjuntos de usuários.
 * **Funções:** identidade do IAM que permite que uma conta tenha permissões específicas, podendo ser aplicadas a serviços da AWS.
 * **Políticas:** regras que concedem ou bloqueiam acesso de usuários ou grupos aos serviços da AWS.
 
-### 3.2 MFA
+### 5.2 MFA
 Recomenda-se a configuração da autenticação multifator (MFA) para ajudar a proteger os recursos da AWS. É pssível habilitar a MFA para o Usuário raiz da conta da AWS ou para usuários do IAM.
 
-### 3.3 Política de senha no IAM
+### 5.3 Política de senha no IAM
 Recomenda-se definir uma política de senha personalizada às contas da AWS para especificar requisitos de complexidade e períodos de alternância obrigatórios para as senhas de usuários do IAM.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/introduction.html/)**
@@ -262,12 +280,9 @@ Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, 
 * **Budget:** definição de orçamentos personalizados para rastrear custos e o uso e criação de alertas de notificações por email ou SNS se exceder o limite predefinido.
 * **Cost Explorer:** interface de fácil utilização que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Gera relatórios personalizados que analisam dados de custos e uso. Analisa dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalha os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.
 
-### 2. Trusted Advisor
-Faz recomendações que ajudam a seguir as práticas recomendadas da AWS. O Trusted Advisor avalia a conta por meio de verificações. Essas verificações identificam formas de otimizar a infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, pode seguir as recomendações da verificação para otimizar o recursos e serviços.
-
 **[REFERÊNCIA](https://aws.amazon.com/pt/premiumsupport/technology/trusted-advisor/)**
 
-### 3. Organizations
+### 2. Organizations
 Permite criar novas contas da AWS sem custo adicional. Com contas em uma organização, pode facilmente alocar recursos, agrupar contas e aplicar políticas de governança a contas ou grupos.
 
 <p align="center">
@@ -276,7 +291,7 @@ Permite criar novas contas da AWS sem custo adicional. Com contas em uma organiz
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/organizations/)**
 
-### 4. Calculator
+### 3. Calculator
 servSço da Web que pode ser usado para criar estimativas de custos correspondentes ao caso de uso da AWS. O AWS Pricing Calculator é útil para pessoas que nunca usaram a AWS e para quem deseja reorganizar ou expandir seu uso.
 
 **[REFERÊNCIA](https://calculator.aws/)**

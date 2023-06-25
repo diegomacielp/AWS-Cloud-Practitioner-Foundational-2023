@@ -101,8 +101,8 @@ Portal de autoatendimento para recuperação de artefatos de auditoria que ofere
 * **CloudTrail:** monitora e registra a atividade da conta por toda a infraestrutura da AWS, oferecendo controle sobre o armazenamento, análise e ações de remediação.
 
 ### 5. Athena vs. Macie
-* **Athena:** serviço de análise interativo e sem servidor criado em frameworks de código aberto, com suporte a formatos de tabela e arquivo abertos. Fornece uma maneira simplificada e flexível de analisar petabytes de dados onde eles residem. Analisar dados ou criar aplicações a partir de um data lake do Amazon Simple Storage Service (S3) e mais de 25 fontes de dados, incluindo fontes de dados on-premises ou outros sistemas em nuvem usando SQL ou Python.
-* **Macie:** serviço de segurança de dados que descobre dados sigilosos usando machine learning e correspondência de padrões, fornece visibilidade dos riscos de segurança de dados e permite proteção automatizada contra esses riscos.
+* **Athena:** serviço de consultas interativas que facilita a análise de dados no Amazon S3 usando SQL padrão. O Athena não usa servidor, de forma que não existe uma infraestrutura para configurar ou gerenciar, é possível começar a analisar os dados imediatamente. Não é necessário nem mesmo carregar dados no Athena, ele trabalha diretamente com os dados armazenados no S3.
+* **Macie:** serviço de segurança e privacidade de dados totalmente gerenciado que usa machine learning e correspondência de padrões para descobrir e proteger seus dados confidenciais na AWS.
 
 ### 6. IAM
 Com o Identity and Access Management (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.

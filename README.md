@@ -273,3 +273,17 @@ Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, 
 
 * **Budget:** definição de orçamentos personalizados para rastrear custos e o uso e criação de alertas de notificações por email ou SNS se exceder o limite predefinido.
 * **Cost Explorer:** interface de fácil utilização que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Gera relatórios personalizados que analisam dados de custos e uso. Analisa dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalha os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.
+
+### 2. Trusted Advisor
+
+Faz recomendações que ajudam a seguir as práticas recomendadas da AWS. O Trusted Advisor avalia a conta por meio de verificações. Essas verificações identificam formas de otimizar a infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, pode seguir as recomendações da verificação para otimizar o recursos e serviços.
+
+**[REFERÊNCIA](https://aws.amazon.com/pt/premiumsupport/technology/trusted-advisor/)**
+
+### 3. Organizations
+
+Permite criar novas contas da AWS sem custo adicional. Com contas em uma organização, pode facilmente alocar recursos, agrupar contas e aplicar políticas de governança a contas ou grupos.
+
+<p align="center">
+  <a><img src="./imgs/organizations.png"></a>
+</p>

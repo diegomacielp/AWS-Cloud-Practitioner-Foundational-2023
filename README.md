@@ -168,7 +168,7 @@ Ajuda a garantir que tenha o número correto de instâncias do Amazon EC2 dispon
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)**
 
-### 4.3 Load Balancer
+### 4.3 Elastic Load Balancer
 
 O Elastic Load Balancing (ELB) distribui automaticamente o tráfego de aplicações de entrada entre vários destinos e dispositivos virtuais em uma ou mais Zonas de disponibilidade (AZs). É compatível com os seguintes tipos de balanceadores de carga: Application Load Balancers e Network Load Balancers. Os serviços do Amazon ECS podem usar esses tipos de balanceador de carga. Os application load balancers são usados para encaminhar o tráfego HTTP/HTTPS (ou Camada 7). Os network load balancers e os classic load balancers são usados para encaminhar o tráfego TCP (ou da Camada 4).
 

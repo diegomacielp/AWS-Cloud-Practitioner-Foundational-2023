@@ -220,6 +220,7 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 * **SQS:** Amazon Simple Queue Service permite enviar, armazenar e recebar mensagens entre componentes de software em qualquer volume, sem perder mensagens ou precisar que outros serviços estejam disponíveis.
 * **ECS:** Amazon Elastic Container Service é um serviço de orquestração de contêineres totalmente gerenciado que simplifica a implantação, o gerenciamento e a escalabilidade de aplicações conteinerizadas.
 * **EKS:** Amazon Elastic Kubernetes Service é um serviço gerenciado que pode ser usado para executar o Kubernetes na AWS, sem necessidade de instalar e manter seus próprios nós ou ambiente de gerenciamento do Kubernetes.
+* **Route 53:** serviço da Web de Sistema de Nomes de Domínio (DNS) altamente disponível e escalável. O Route 53 conecta as requisições do usuário a aplicações da Internet executadas na AWS ou on-premises.
 
 <hr>
 

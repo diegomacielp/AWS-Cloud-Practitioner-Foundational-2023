@@ -255,6 +255,8 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 
 Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, gerenciar preferências de faturamento e configurações de impostos e acessar outros serviços de gerenciamento financeiro na nuvem. Avaliar rapidamente se os gastos mensais estão alinhados a períodos anteriores, previsões ou orçamentos para investigar e executar ações corretivas em tempo hábil. Os fundamentos da precificação da AWS são: computação, armazenamento e *Data Transfer Out*.
 
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/account-billing/index.html)**
+
 ### 1.1 Sistema de cobrança da AWS
 
 * **Pay as you go:** pague e use.
@@ -266,3 +268,8 @@ Serviço que facilita entender os gastos com a AWS, visualizar e pagar faturas, 
 
 * **Capex:** ou custos de capital, se trata de investimentos em bens de capital, que são investimentos para obtenção de benefícios no longo prazo.
 * **Opex:** ou custo operacional, se trata de inventimentos para se manter a operação, não há grandes despesas iniciais, o que permite maior fluxo de caixa.
+
+### 1.3 Budget e Cost Explorer
+
+* **Budget:** definição de orçamentos personalizados para rastrear custos e o uso e criação de alertas de notificações por email ou SNS se exceder o limite predefinido.
+* **Cost Explorer:** interface de fácil utilização que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Gera relatórios personalizados que analisam dados de custos e uso. Analisa dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalha os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.

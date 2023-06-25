@@ -100,23 +100,27 @@ Portal de autoatendimento para recuperação de artefatos de auditoria que ofere
 * **Trusted Advisor:** faz recomendações que ajudam a seguir as práticas recomendadas da AWS. Avalia a conta por meio de verificações, indentificando formas de otimizar a infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, pode seguir as recomendações da verificação para otimizar o recursos e serviços.
 * **CloudTrail:** monitora e registra a atividade da conta por toda a infraestrutura da AWS, oferecendo controle sobre o armazenamento, análise e ações de remediação.
 
-### 5. IAM
+### 5. Athena vs. Macie
+* **Athena:** serviço de análise interativo e sem servidor criado em frameworks de código aberto, com suporte a formatos de tabela e arquivo abertos. Fornece uma maneira simplificada e flexível de analisar petabytes de dados onde eles residem. Analisar dados ou criar aplicações a partir de um data lake do Amazon Simple Storage Service (S3) e mais de 25 fontes de dados, incluindo fontes de dados on-premises ou outros sistemas em nuvem usando SQL ou Python.
+* **Macie:** serviço de segurança de dados que descobre dados sigilosos usando machine learning e correspondência de padrões, fornece visibilidade dos riscos de segurança de dados e permite proteção automatizada contra esses riscos.
+
+### 6. IAM
 Com o Identity and Access Management (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.
 
 <p align="center">
   <a><img src="./imgs/iam.png"></a>
 </p>
 
-### 5.1 Usuários, grupos, funções e políticas
+### 6.1 Usuários, grupos, funções e políticas
 * **Usuários:** qualquer credencial, ou identidade do IAM, que possua acessar a AWS via console, CLI ou API. Após criado, o usuário somente tem permissão de fazer login na plataforma devido o princípio do menor privilégio (least privilege principle) e recomenda-se sempre utiliza-lo. Por questões de segunrança, não é recomendado a utilização do usuário root da conta.
 * **Grupos:** coleção de usuários do IAM. Facilitam o gerenciamento de permissões para grandes conjuntos de usuários.
 * **Funções:** identidade do IAM que permite que uma conta tenha permissões específicas, podendo ser aplicadas a serviços da AWS.
 * **Políticas:** regras que concedem ou bloqueiam acesso de usuários ou grupos aos serviços da AWS.
 
-### 5.2 MFA
+### 6.2 MFA
 Recomenda-se a configuração da autenticação multifator (MFA) para ajudar a proteger os recursos da AWS. É pssível habilitar a MFA para o Usuário raiz da conta da AWS ou para usuários do IAM.
 
-### 5.3 Política de senha no IAM
+### 6.3 Política de senha no IAM
 Recomenda-se definir uma política de senha personalizada às contas da AWS para especificar requisitos de complexidade e períodos de alternância obrigatórios para as senhas de usuários do IAM.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/introduction.html/)**

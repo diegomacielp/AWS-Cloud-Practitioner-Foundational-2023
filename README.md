@@ -159,6 +159,15 @@ Elastic Compute Cloud é um serviço que oferece uma capacidade de computação 
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)**
 
+### 4.2 Auto Scaling
+
+Ajuda a garantir que tenha o número correto de instâncias do Amazon EC2 disponíveis para processar a carga da aplicação. A  criação de coleções de instâncias EC2 é chamada de grupos de Auto Scaling. É possível especificar o número mínimo de instâncias em cada grupo do Auto Scaling, e o Amazon EC2 Auto Scaling garante que o grupo nunca seja menor que esse tamanho. É possível especificar o número máximo de instâncias em cada grupo do Auto Scaling, e o Amazon EC2 Auto Scaling garante que o grupo nunca seja maior que esse tamanho.
+
+* **Scaling UP:** Escalonamento vertical
+* **Scaling OUT:** Escalonamento horizontal (Auto Scaling)
+
+**[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)**
+
 ### 5. S3
 
 Amazon Simple Storage Service é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.

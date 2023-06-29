@@ -189,7 +189,7 @@ Ajuda a garantir que tenha o número correto de instâncias do Amazon EC2 dispon
 * **Scaling OUT:** Escalonamento horizontal (Auto Scaling)
 
 ### 4.3 Políticas de escabilidade
-* **Step/Simple Scaling:** escolhe as métricas de escalabilidade e os valores de limite para os CloudWatch alarmes que invocam o processo de escalabilidade. Também define como o grupo do Auto Scaling deve ser escalado quando um limite for violado para um número especificado de períodos de avaliação.
+* **Step/Simple Scaling:** escolhe as métricas de escalabilidade e os valores de limite para os alarmes do CloudWatch que invocam o processo de escalabilidade. Também define como o grupo do Auto Scaling deve ser escalado quando um limite for violado para um número especificado de períodos de avaliação.
 * **Target Tracking:** especifica uma métrica CloudWatch e um valor de objetivo que representa a utilização média ideal ou o nível de throughput da aplicação. Em seguida, o Amazon EC2 Auto Scaling poderá aumentar a escala na horizontal do grupo (adicionar mais instâncias) para processar picos de tráfego, e reduzir a escala na horizontal do grupo (executar menos instâncias) para reduzir custos durante períodos de baixa utilização ou throughput.
 
 **[REFERÊNCIA](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)**

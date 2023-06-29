@@ -105,14 +105,14 @@ Portal de autoatendimento para recuperação de artefatos de auditoria que ofere
 * **Macie:** serviço de segurança e privacidade de dados totalmente gerenciado que usa machine learning e correspondência de padrões para descobrir e proteger seus dados confidenciais na AWS.
 
 ### 6. IAM
-Com o Identity and Access Management (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.
+Com o *Identity and Access Management* (IAM) é possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões de maneira centralizada e analisar o acesso para conceder as permissões na AWS.
 
 <p align="center">
   <a><img src="./imgs/iam.png"></a>
 </p>
 
 ### 6.1 Usuários, grupos, funções e políticas
-* **Usuários:** qualquer credencial, ou identidade do IAM, que possua acessar a AWS via console, CLI ou API. Após criado, o usuário somente tem permissão de fazer login na plataforma devido o princípio do menor privilégio (least privilege principle) e recomenda-se sempre utiliza-lo. Por questões de segunrança, não é recomendado a utilização do usuário root da conta.
+* **Usuários:** qualquer credencial, ou identidade do IAM, que possua acessar a AWS via console, CLI ou API. Após criado, o usuário somente tem permissão de fazer login na plataforma devido o princípio do menor privilégio (*least privilege principle*) e recomenda-se sempre utiliza-lo. Por questões de segurança, não é recomendado a utilização do usuário root da conta.
 * **Grupos:** coleção de usuários do IAM. Facilitam o gerenciamento de permissões para grandes conjuntos de usuários.
 * **Funções:** identidade do IAM que permite que uma conta tenha permissões específicas, podendo ser aplicadas a serviços da AWS.
 * **Políticas:** regras que concedem ou bloqueiam acesso de usuários ou grupos aos serviços da AWS.

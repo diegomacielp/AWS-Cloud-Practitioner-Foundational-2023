@@ -159,7 +159,7 @@ Implantações de infraestrutura da AWS que incorporam serviços de computação
 **[REFERÊNCIA](https://aws.amazon.com/pt/about-aws/global-infrastructure/)**
 
 ### 2.5. AWS Outspots
-Solução totalmente gerenciadas que fornece infraestrutura e serviços da AWS para praticamente qualquer local da borda ou on-premises para uma experiência híbrida verdadeiramente consistente. As soluções do Outposts permitem que os clientes estendam e executem serviços da AWS nativos on-premises.
+Solução totalmente gerenciada que fornece infraestrutura e serviços da AWS para praticamente qualquer local da borda ou on-premises para uma experiência híbrida verdadeiramente consistente. As soluções do Outposts permitem que os clientes estendam e executem serviços da AWS nativos on-premises.
 
 **[REFERÊNCIA](https://aws.amazon.com/pt/outposts/)**
 

@@ -241,6 +241,7 @@ Transições de ciclo de vida | Sim | Sim | Sim | Sim | Sim | Sim
 
 ### 6. Serviços de armazenamento
 * **AMI:** Amazon Machine Image é uma imagem compatível e mantida pela AWS, que fornece as informações necessárias para iniciar uma instância.
+* **AWS Config:** fornece uma visão detalhada da configuração dos recursos da AWS. Isso inclui como os recursos estão relacionados um com o outro e como eles foram configurados no passado, de modo que seja possível ver como os relacionamentos e as configurações foram alterados ao longo do tempo.
 * **EBS:** Amazon Elastic Block Store é um serviço de armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o EC2.
 * **EFS:** Amazon Elastic File System aumenta e diminui automaticamente conforme se adiciona e remove arquivos, sem a necessidade de gerenciamento ou provisionamento.
 * **CloudFront:** serviço de rede de entrega de conteúdo (CDN) criado para alta performance, segurança e conveniência do desenvolvedor.

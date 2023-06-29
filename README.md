@@ -118,7 +118,7 @@ Com o *Identity and Access Management* (IAM) é possível especificar quem ou o 
 * **Políticas:** regras que concedem ou bloqueiam acesso de usuários ou grupos aos serviços da AWS.
 
 ### 6.2 MFA
-Recomenda-se a configuração da autenticação multifator (MFA) para ajudar a proteger os recursos da AWS. É pssível habilitar a MFA para o Usuário raiz da conta da AWS ou para usuários do IAM.
+Recomenda-se a configuração da autenticação multifator (MFA) para ajudar a proteger os recursos da AWS. É possível habilitar a MFA para o usuário root da conta da AWS ou para usuários do IAM.
 
 ### 6.3 Política de senha no IAM
 Recomenda-se definir uma política de senha personalizada às contas da AWS para especificar requisitos de complexidade e períodos de alternância obrigatórios para as senhas de usuários do IAM.
